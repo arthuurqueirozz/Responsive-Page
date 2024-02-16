@@ -61,6 +61,10 @@ span{
     border-radius: 2px;
 }
 
+p{
+    margin: 8px 0;
+}
+
 .products{
     display: flex;
     flex-direction: column;
@@ -121,14 +125,6 @@ button{
         margin-left: 0;
     }
     
-    span{
-        display: block;
-        background-color: rgb(0, 102, 255);
-        margin: 24px 0 24px 0;
-        height: 4px;
-        border-radius: 2px;
-    }
-
     .products{
         display: flex;
         flex-direction: column;
@@ -138,6 +134,7 @@ button{
     .grid-products{
         display: grid;
         grid-template-columns: repeat(2, 50%);
+        gap: 2%;
     }
     
     .product{
@@ -147,10 +144,6 @@ button{
     .product img{
        width: 100%;
        height: auto; 
-    }
-    
-    .product h3{
-        margin: 8px 0;
     }
 }
 
@@ -171,10 +164,6 @@ button{
         margin-top: 24px;
     }
     
-    section picture{
-       text-align: center;
-    }
-    
     section img{
         width: 100%;
         height: 100%;
@@ -184,14 +173,6 @@ button{
         margin-left: 0;
     }
     
-    span{
-        display: block;
-        background-color: rgb(0, 102, 255);
-        margin: 24px 0 24px 0;
-        height: 4px;
-        border-radius: 2px;
-    }
-
     .products{
         display: flex;
         flex-direction: column;
@@ -203,17 +184,9 @@ button{
         grid-template-columns: repeat(1, 100%);
         gap: 2%;
     }
-    
-    .product{
-        margin-right: 8px;
-    }
 
     .product img{
        width: 100%;
        height: auto; 
-    }
-    
-    .product h3{
-        margin: 8px 0;
     }
 }
